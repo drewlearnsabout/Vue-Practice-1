@@ -52,7 +52,7 @@
         })
 
         Vue.component('todo-item', {
-            props: ['todo']
+            props: ['todo'],
             template: '<li>{{ todo.text }}</li>'
         })
 
